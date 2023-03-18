@@ -1,0 +1,32 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns": ["hello", "hey", "good day", "greetings", "what's up?", "how you doing?"],
+        "responses": ["Hello", "Hey", "Greetings", "Good day!", "What can I do for you?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["bye", "See you later", "good day", "greetings", "Need to go", "I am leaving"],
+        "responses": ["Sad to see you go:(", "Bye Bye!", "Tata", "Good day!", "Talk to you later"]
+    },
+    {
+        "tag": "name",
+        "patterns": ["what is your name?", "Your good name?", "What should I call you?", "Name?"],
+        "responses": ["You can call me Bot!", "Call me Bot!", "I'm bot!", "My name is Bot!", "My name is Bot! yours?"]
+    },
+    {
+        "tag": "age",
+        "patterns": ["how old?", "how old is Jyotsna?", "what is your age?"],
+        "responses": ["My owner Jyotsna is 20 years old and soon gonna be 21.", "20 years!"]
+    },
+    {
+        "tag": "drink",
+        "patterns": ["Need anything to drink?", "what you drink?", "what would you like to drink?", "Do you drink?"],
+        "responses": ["I like Tea.","I don't Drink.","I'm a software I can't drink. Though my owner love BroCode!","No, thankyou!"]
+    },
+    {
+        "tag": "share",
+        "patterns": ["What share should I bought?", "Good shares", "high value stock?", "best stock to bought?"],
+        "responses": ["I can't tell you about the exact stock. But this are the good stocks Adani ports, Jio, TATA, Boat","Adani is Good for long term","sorry, I can't!"]
+    }
+]}
